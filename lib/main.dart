@@ -50,6 +50,7 @@ class _MyAppState extends State<MyApp> {
     _googleMapController=controller;
     Position x=await _determinePosition() as Position;
     addMarker(LatLng(x.latitude,x.longitude));
+    //////
 
   }
 
